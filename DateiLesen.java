@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class DateiLesen {
-    private static void ladeDatei(String datName) {
+    public static void ladeDatei(String datName) {
 
         File file = new File(datName);
 
